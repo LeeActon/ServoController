@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "ServoController", "ServoController.cppproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Servo8Bit.git", "..\Servo8Bit.git\Servo8Bit.git.cppproj", "{319FE069-4589-4D43-960C-FF4A858DFE6C}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "ErriezLKM1638.git", "..\ErriezLKM1638.git\ErriezLKM1638.git.cppproj", "{8838AE2E-5986-4C1C-BDD1-0D02F968E911}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "ErriezTM1638.git", "..\ErriezTM1638.git\ErriezTM1638.git.cppproj", "{BA79D712-185D-4C37-A546-9AEEAEF16305}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "TimerTick", "..\TimerTick\TimerTick.cppproj", "{9D6A5470-821B-422E-B864-59A422653A8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{319FE069-4589-4D43-960C-FF4A858DFE6C}.Debug|AVR.ActiveCfg = Debug|AVR
+		{319FE069-4589-4D43-960C-FF4A858DFE6C}.Debug|AVR.Build.0 = Debug|AVR
+		{319FE069-4589-4D43-960C-FF4A858DFE6C}.Release|AVR.ActiveCfg = Release|AVR
+		{319FE069-4589-4D43-960C-FF4A858DFE6C}.Release|AVR.Build.0 = Release|AVR
+		{8838AE2E-5986-4C1C-BDD1-0D02F968E911}.Debug|AVR.ActiveCfg = Debug|AVR
+		{8838AE2E-5986-4C1C-BDD1-0D02F968E911}.Debug|AVR.Build.0 = Debug|AVR
+		{8838AE2E-5986-4C1C-BDD1-0D02F968E911}.Release|AVR.ActiveCfg = Release|AVR
+		{8838AE2E-5986-4C1C-BDD1-0D02F968E911}.Release|AVR.Build.0 = Release|AVR
+		{BA79D712-185D-4C37-A546-9AEEAEF16305}.Debug|AVR.ActiveCfg = Debug|AVR
+		{BA79D712-185D-4C37-A546-9AEEAEF16305}.Debug|AVR.Build.0 = Debug|AVR
+		{BA79D712-185D-4C37-A546-9AEEAEF16305}.Release|AVR.ActiveCfg = Release|AVR
+		{BA79D712-185D-4C37-A546-9AEEAEF16305}.Release|AVR.Build.0 = Release|AVR
+		{9D6A5470-821B-422E-B864-59A422653A8A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{9D6A5470-821B-422E-B864-59A422653A8A}.Debug|AVR.Build.0 = Debug|AVR
+		{9D6A5470-821B-422E-B864-59A422653A8A}.Release|AVR.ActiveCfg = Release|AVR
+		{9D6A5470-821B-422E-B864-59A422653A8A}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
